@@ -31,7 +31,7 @@ app.get("/trigger-a", async (req, res) => {
 
     res.json({
       message: "Ini adalah foto random kelas A",
-      response: responseData.data, // Change this to responseData.data
+      response: responseData.data, 
     });
   } catch (error) {
     console.error(error);
